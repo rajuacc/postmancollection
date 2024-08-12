@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "fd4e74c5-67b7-4fe1-96ca-7de89d6cb8b9",
+		"name": "GitcollectionPOC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34162560"
+	},
+	"item": [
+		{
+			"name": "triggerwf",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://prod-52.eastus2.logic.azure.com:443/workflows/fbd1362cb0e74e89957dd73b7c526515/triggers/When_a_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_a_HTTP_request_is_received%2Frun&sv=1.0&sig=fH_1o-dYAg4T1k0PxEcXpg7RdspTRZFex9w4qQqrsWw",
+					"protocol": "https",
+					"host": [
+						"prod-52",
+						"eastus2",
+						"logic",
+						"azure",
+						"com"
+					],
+					"port": "443",
+					"path": [
+						"workflows",
+						"fbd1362cb0e74e89957dd73b7c526515",
+						"triggers",
+						"When_a_HTTP_request_is_received",
+						"paths",
+						"invoke"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "2016-10-01"
+						},
+						{
+							"key": "sp",
+							"value": "%2Ftriggers%2FWhen_a_HTTP_request_is_received%2Frun"
+						},
+						{
+							"key": "sv",
+							"value": "1.0"
+						},
+						{
+							"key": "sig",
+							"value": "fH_1o-dYAg4T1k0PxEcXpg7RdspTRZFex9w4qQqrsWw"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

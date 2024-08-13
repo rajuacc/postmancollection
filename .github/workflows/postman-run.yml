@@ -18,7 +18,7 @@ jobs:
         run: postman login --with-api-key ${{ secrets.POSTMAN_API_KEY }}
       - name: Run API tests
         run: |
-          postman collection run "34162560-fd4e74c5-67b7-4fe1-96ca-7de89d6cb8b9" --reporter json > result.log
+          postman collection run "34162560-fd4e74c5-67b7-4fe1-96ca-7de89d6cb8b9" > result.log
       - name: Upload result
         uses: actions/upload-artifact@v3
         with:

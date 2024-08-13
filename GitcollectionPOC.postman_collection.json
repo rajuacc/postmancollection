@@ -8,6 +8,20 @@
 	"item": [
 		{
 			"name": "triggerwf",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// This script runs after the request is completed\r",
+							"console.log(\"Response Body:\", pm.response.text());\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
 			"request": {
 				"method": "POST",
 				"header": [],
